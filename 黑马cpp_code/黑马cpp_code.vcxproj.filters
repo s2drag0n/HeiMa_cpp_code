@@ -147,9 +147,33 @@
     <ClCompile Include="024 模板案例一排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="024 Person.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="025 模板案例二实现数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="101 STL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="102 string容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="103 vector容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="010 函数swap分文件.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="024 Person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="024 Person.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="025 MyArray.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
