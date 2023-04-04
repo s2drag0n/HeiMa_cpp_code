@@ -135,7 +135,7 @@
     <ClCompile Include="021 计算机组成.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="022  文件操作.cpp">
+    <ClCompile Include="022 文件操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="023 职工管理系统.cpp">
@@ -160,6 +160,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="103 vector容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="104 deque容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="103&amp;104案例 评委打分.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
