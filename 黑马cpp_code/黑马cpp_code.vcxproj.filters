@@ -168,6 +168,24 @@
     <ClCompile Include="103&amp;104案例 评委打分.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="105 stack&amp;queue容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="106 list链表容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="106 案例list排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="107 set\107 set&amp;multiset容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="108 map&amp;multimap容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="108 案例员工分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="010 函数swap分文件.h">
