@@ -28,8 +28,8 @@ using namespace std;
 *	capacity()				容量
 *	size()					元素个数
 *	resize(int num)			若容器变长，以默认值填充新位置
-*	resize(int num, elem)		若容器变长，以elem填充新位置
-*	reserve(int num)			设置容量
+*	resize(int num, elem)	若容器变长，以elem填充新位置
+*	reserve(int num)		设置容量
 * 
 * vector插入和删除
 *	push_back(ele)
