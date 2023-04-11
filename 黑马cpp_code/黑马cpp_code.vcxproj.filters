@@ -186,6 +186,18 @@
     <ClCompile Include="108 案例员工分组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="109 STL函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="110 STL谓词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="111 STL内建函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="112 STL常用算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="010 函数swap分文件.h">
