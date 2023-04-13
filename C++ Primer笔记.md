@@ -429,3 +429,18 @@
 26. 位运算符会自动进行整型提升（小整型->大整型，基本上是char、short->int）。
 
 27. 左移运算符是在整数末尾补0，右移运算符则是在首位补上符号位或者0（视具体环境而定）。
+
+28. sizeof的用法有`sizeof(type)`和`sizeof expr`，其中后者返回的是表达式结果类型的大小，但注意sizeof并不计算表达式的结果而仅仅是返回其类型。sizeof不会将数组转化为指针，所以返回的是整个数组所占的空间。如果sizeof作用在常量表达式上则可以用于声明数组的长度。
+
+29. 隐式类型转换
+
+    1. 整型提升：short和char会转换成int，无符号小整型则转换成unsigned int
+    2. 数组转换为指针：除了decltype、&取地址、sizeof、typeid、使用引用初始化数组这几种情况
+
+30. 显式类型转换
+
+    旧式强制类型转换语法为type(expr)或(type)expr，这种强转在遇到错误时很难追踪其错，所以引入了新的强制类型转换`cast-name<type>(expression)`
+
+    1. static-cast：只要不包含底层const都可以使用。一般用于将大的数据类型强转为小的数据类型而不会报错。还可以用于找回存于void*的指针。
+    2. const-cast：只能改变底层const，将const转为非const
+    3. reinterpret-cast：用小的数据类型指向大的数据类型，一般不要用。
